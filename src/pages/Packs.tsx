@@ -23,13 +23,13 @@ const Packs = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Pack Starter Gescom */}
+          {/* Pack Starter Sage Gestion Commerciale 100c */}
           <Card className="bg-white shadow-lg flex flex-col">
             <CardHeader className="pb-0">
               <div className="flex justify-center mb-4">
                 <Package className="h-12 w-12 text-brand-blue" />
               </div>
-              <CardTitle className="text-center text-2xl">Pack Starter Gescom</CardTitle>
+              <CardTitle className="text-center text-2xl">Pack Starter Sage Gestion Commerciale 100c</CardTitle>
               <p className="text-center text-gray-500 mt-2">Démarrez avec la gestion commerciale</p>
             </CardHeader>
             <CardContent className="flex-grow">
@@ -50,13 +50,13 @@ const Packs = () => {
             </CardFooter>
           </Card>
 
-          {/* Pack Starter Compta */}
+          {/* Pack Starter Sage Comptabilité 100c */}
           <Card className="bg-white shadow-lg flex flex-col">
             <CardHeader className="pb-0">
               <div className="flex justify-center mb-4">
                 <Package className="h-12 w-12 text-brand-blue" />
               </div>
-              <CardTitle className="text-center text-2xl">Pack Starter Compta</CardTitle>
+              <CardTitle className="text-center text-2xl">Pack Starter Sage Comptabilité 100c</CardTitle>
               <p className="text-center text-gray-500 mt-2">Optimisez votre comptabilité</p>
             </CardHeader>
             <CardContent className="flex-grow">
@@ -88,7 +88,7 @@ const Packs = () => {
             </CardHeader>
             <CardContent className="flex-grow">
               <div className="mt-6 space-y-4">
-                <PackFeature>Programme complet Gescom et Compta</PackFeature>
+                <PackFeature>Programme complet Sage Gestion Commerciale 100c et Sage Comptabilité 100c</PackFeature>
                 <PackFeature>Supports de formation fournis</PackFeature>
                 <PackFeature>Sessions personnalisées</PackFeature>
                 <PackFeature>Exercices pratiques adaptés à votre activité</PackFeature>
