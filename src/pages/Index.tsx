@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { ChevronRight, Award, Clock, Tool, Users } from 'lucide-react';
+import { ChevronRight, Award, Clock, Wrench, Users } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -54,7 +54,7 @@ const Index = () => {
             <Card className="border-t-4 border-t-brand-blue">
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
-                  <Tool className="h-12 w-12 text-brand-blue mb-4" />
+                  <Wrench className="h-12 w-12 text-brand-blue mb-4" />
                   <h3 className="font-bold text-xl mb-2">Solutions adaptées</h3>
                   <p className="text-gray-600">Des prestations personnalisées selon vos besoins</p>
                 </div>
