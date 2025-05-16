@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Home, Briefcase, Package, User, Mail } from 'lucide-react';
-import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +22,7 @@ const Header = () => {
     <header className="bg-brand-dark-blue text-white py-4 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold">Iheb Chafai</Link>
+          <Link to="/" className="text-2xl font-bold">Expert ERP Sage 100</Link>
           
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center space-x-6">

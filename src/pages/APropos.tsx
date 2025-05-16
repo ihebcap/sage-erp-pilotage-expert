@@ -17,7 +17,7 @@ const APropos = () => {
         {/* About Content */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h2 className="text-2xl font-bold mb-4">Iheb Chafai</h2>
+            <h2 className="text-2xl font-bold mb-4">Expert ERP Sage 100</h2>
             <p className="mb-4 text-gray-700">
               Je suis consultant ERP indépendant, expert sur Sage 100 (modules gestion commerciale et comptabilité), 
               avec plus de 15 ans d'expérience dans le domaine.

@@ -66,10 +66,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
                   <a 
-                    href="mailto:chafai.iheb@gmail.com" 
+                    href="mailto:contact@exemple.com" 
                     className="text-gray-700 hover:text-brand-blue transition-colors"
                   >
-                    chafai.iheb@gmail.com
+                    contact@exemple.com
                   </a>
                 </div>
               </div>
@@ -81,10 +81,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold mb-1">Téléphone</h3>
                   <a 
-                    href="tel:+21620501950" 
+                    href="tel:+0000000000" 
                     className="text-gray-700 hover:text-brand-blue transition-colors"
                   >
-                    +216 20 501 950
+                    +00 00 000 000
                   </a>
                 </div>
               </div>
@@ -96,12 +96,12 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold mb-1">LinkedIn</h3>
                   <a 
-                    href="https://www.linkedin.com/in/ihebc/"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-brand-blue transition-colors"
                   >
-                    linkedin.com/in/ihebc
+                    LinkedIn
                   </a>
                 </div>
               </div>
