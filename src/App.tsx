@@ -11,6 +11,7 @@ import Prestations from "./pages/Prestations";
 import Packs from "./pages/Packs";
 import APropos from "./pages/APropos";
 import Contact from "./pages/Contact";
+import ContactForm from "./pages/ContactForm";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,7 +28,10 @@ const App = () => (
             <Route path="/prestations" element={<Prestations />} />
             <Route path="/packs" element={<Packs />} />
             <Route path="/apropos" element={<APropos />} />
+            {/* Route contact originale conservée mais non accessible par le menu */}
             <Route path="/contact" element={<Contact />} />
+            {/* Nouvelle route pour le formulaire */}
+            <Route path="/contact-form" element={<ContactForm />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>

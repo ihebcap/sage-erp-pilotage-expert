@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Home, Briefcase, Package, User, Mail } from 'lucide-react';
+import { Menu, X, Home, Briefcase, Package, User } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,7 @@ const Header = () => {
     { name: "Prestations", icon: Briefcase, path: "/prestations" },
     { name: "Packs / Formules", icon: Package, path: "/packs" },
     { name: "À propos", icon: User, path: "/apropos" },
-    { name: "Contact", icon: Mail, path: "/contact" },
+    { name: "Nous contacter", icon: User, path: "/contact-form" }, // Changé pour pointer vers le nouveau formulaire
   ];
 
   return (
