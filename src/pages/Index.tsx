@@ -16,7 +16,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Je vous accompagne dans la mise en place, l'optimisation et le pilotage de votre ERP Sage 100.
           </p>
-          <Link to="/contact">
+          <Link to="/contact-form">
             <Button size="lg" className="bg-brand-blue hover:bg-brand-blue/90 text-white">
               Contactez-moi
               <ChevronRight className="ml-2 h-4 w-4" />
@@ -87,7 +87,7 @@ const Index = () => {
                 Voir mes prestations
               </Button>
             </Link>
-            <Link to="/contact">
+            <Link to="/contact-form">
               <Button className="bg-brand-blue hover:bg-brand-blue/90 text-white">
                 Discuter de votre projet
               </Button>

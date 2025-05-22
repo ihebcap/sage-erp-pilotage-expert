@@ -15,7 +15,7 @@ const Header = () => {
     { name: "Prestations", icon: Briefcase, path: "/prestations" },
     { name: "Packs / Formules", icon: Package, path: "/packs" },
     { name: "À propos", icon: User, path: "/apropos" },
-    { name: "Nous contacter", icon: User, path: "/contact-form" }, // Changé pour pointer vers le nouveau formulaire
+    { name: "Nous contacter", icon: User, path: "/contact-form" },
   ];
 
   return (

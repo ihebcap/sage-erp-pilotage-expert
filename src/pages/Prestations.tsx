@@ -177,7 +177,7 @@ const Prestations = () => {
             Mon approche est simple : du concret, du résultat, et du support réactif.
             Je travaille en proximité avec vos équipes pour garantir des solutions qui fonctionnent vraiment.
           </p>
-          <a href="/contact" className="inline-block bg-brand-blue hover:bg-brand-blue/90 text-white py-2 px-6 rounded-md transition-colors">
+          <a href="/contact-form" className="inline-block bg-brand-blue hover:bg-brand-blue/90 text-white py-2 px-6 rounded-md transition-colors">
             Discuter de votre projet
           </a>
         </div>

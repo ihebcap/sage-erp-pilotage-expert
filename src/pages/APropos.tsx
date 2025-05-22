@@ -9,7 +9,7 @@ const APropos = () => {
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold mb-4">À propos</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Consultant ERP indépendant, spécialisé sur Sage 100, avec plus de 15 ans d'expérience 
+            Consultant ERP spécialisé sur Sage 100, avec plus de 15 ans d'expérience 
             au service des PME.
           </p>
         </div>
@@ -19,7 +19,7 @@ const APropos = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">Expert ERP Sage 100</h2>
             <p className="mb-4 text-gray-700">
-              Je suis consultant ERP indépendant, expert sur Sage 100 (modules gestion commerciale et comptabilité), 
+              Je suis consultant ERP, expert sur Sage 100 (modules gestion commerciale et comptabilité), 
               avec plus de 15 ans d'expérience dans le domaine.
             </p>
             <p className="mb-4 text-gray-700">
@@ -139,7 +139,7 @@ const APropos = () => {
             pour des solutions qui s'adaptent réellement aux besoins des PME.
           </p>
           
-          <a href="/contact" className="inline-block bg-brand-blue hover:bg-brand-blue/90 text-white py-3 px-8 rounded-md transition-colors">
+          <a href="/contact-form" className="inline-block bg-brand-blue hover:bg-brand-blue/90 text-white py-3 px-8 rounded-md transition-colors">
             Discutons de votre projet
           </a>
         </div>
