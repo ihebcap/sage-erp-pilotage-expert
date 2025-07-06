@@ -22,7 +22,14 @@ const Header = () => {
     <header className="bg-brand-dark-blue text-white py-4 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold">Expert ERP Sage 100</Link>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/becf7b12-654d-4932-9767-654011ff4c0f.png" 
+              alt="AUREN" 
+              className="h-8 w-auto"
+            />
+            <span className="text-xl font-light tracking-wide">AUREN</span>
+          </Link>
           
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center space-x-6">
@@ -30,7 +37,7 @@ const Header = () => {
               <Link 
                 key={item.name}
                 to={item.path} 
-                className="flex items-center gap-2 hover:text-brand-blue transition-colors"
+                className="flex items-center gap-2 hover:text-brand-blue transition-colors font-light"
               >
                 <item.icon className="h-4 w-4" />
                 <span>{item.name}</span>
@@ -56,7 +63,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className="flex items-center gap-2 hover:text-brand-blue transition-colors py-2"
+                  className="flex items-center gap-2 hover:text-brand-blue transition-colors py-2 font-light"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <item.icon className="h-5 w-5" />
