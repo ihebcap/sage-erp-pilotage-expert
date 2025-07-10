@@ -104,7 +104,7 @@
 /* Custom styling for focus states */
 button:focus-visible, 
 a:focus-visible {
-  @apply outline-none ring-2 ring-brand-blue ring-offset-2;
+  @apply outline-none ring-2 ring-brand-black ring-offset-2;
 }
 
 /* Transitions for interactive elements */
