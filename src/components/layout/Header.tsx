@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Home, Briefcase, Package, User } from 'lucide-react';
+import logoAurenBlack from '../../assets/logo-auren-black.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,16 +20,16 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-brand-dark-blue text-white py-4 shadow-md">
+    <header className="bg-brand-dark text-white py-4 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/becf7b12-654d-4932-9767-654011ff4c0f.png" 
+              src={logoAurenBlack} 
               alt="AUREN" 
               className="h-8 w-auto"
             />
-            <span className="text-xl font-light tracking-wide">AUREN</span>
+            <span className="text-xl font-central font-light tracking-wide">AUREN</span>
           </Link>
           
           {/* Desktop Menu */}
@@ -37,7 +38,7 @@ const Header = () => {
               <Link 
                 key={item.name}
                 to={item.path} 
-                className="flex items-center gap-2 hover:text-brand-blue transition-colors font-light"
+                className="flex items-center gap-2 hover:text-gray-300 transition-colors font-light"
               >
                 <item.icon className="h-4 w-4" />
                 <span>{item.name}</span>
@@ -57,13 +58,13 @@ const Header = () => {
         
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-3 px-4 bg-brand-dark-blue border border-gray-700 rounded-lg">
+          <div className="md:hidden mt-4 py-3 px-4 bg-brand-dark border border-gray-700 rounded-lg">
             <nav className="flex flex-col space-y-4">
               {menuItems.map((item) => (
                 <Link
                   key={item.name}
                   to={item.path}
-                  className="flex items-center gap-2 hover:text-brand-blue transition-colors py-2 font-light"
+                  className="flex items-center gap-2 hover:text-gray-300 transition-colors py-2 font-light"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <item.icon className="h-5 w-5" />

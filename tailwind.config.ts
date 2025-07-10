@@ -64,10 +64,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
                 // Custom brand colors
-                'brand-dark-blue': '#1F2A44',
-                'brand-blue': '#4B8DF8',
+                'brand-dark': '#1A1A1A',
+                'brand-black': '#000000',
                 'brand-light-gray': '#F5F7FA',
                 'brand-text': '#333333',
+			},
+			fontFamily: {
+				'central': ['Inter', 'system-ui', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
