@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Home, Briefcase, Package, User } from 'lucide-react';
-import logoAurenBlack from '../../assets/logo-auren-black.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,15 +19,10 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-brand-dark text-white py-4 shadow-md">
+    <header className="bg-brand-black text-white py-4 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src={logoAurenBlack} 
-              alt="AUREN" 
-              className="h-8 w-auto"
-            />
             <span className="text-xl font-central font-light tracking-wide">AUREN</span>
           </Link>
           
@@ -58,7 +52,7 @@ const Header = () => {
         
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-3 px-4 bg-brand-dark border border-gray-700 rounded-lg">
+          <div className="md:hidden mt-4 py-3 px-4 bg-brand-black border border-gray-700 rounded-lg">
             <nav className="flex flex-col space-y-4">
               {menuItems.map((item) => (
                 <Link
