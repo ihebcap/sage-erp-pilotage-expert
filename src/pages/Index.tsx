@@ -14,10 +14,10 @@ const Index = () => {
             AUREN
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
-            Expert ERP Sage 100 pour votre entreprise
+            Votre réussite, notre obsession.
           </h2>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light">
-            Je vous accompagne dans la mise en place, l'optimisation et le pilotage de votre ERP Sage 100.
+            Nous transformons votre vision métier en réalité opérationnelle avec des solutions technologiques sur mesure, pensées pour amplifier votre performance et accélérer votre croissance.
           </p>
           <Link to="/contact-form">
             <Button size="lg" className="bg-brand-blue hover:bg-brand-blue/90 text-white font-light">

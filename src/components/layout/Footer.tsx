@@ -17,10 +17,10 @@ const Footer = () => {
               />
               <h3 className="text-xl font-central font-light tracking-wide">AUREN</h3>
             </div>
-            <p className="mb-4 text-gray-300 font-light">Consultant ERP Sage 100</p>
+            <p className="mb-4 text-gray-300 font-light">ESN - Services Numériques</p>
             <p className="text-sm text-gray-300 font-light">
-              Une approche centrée sur la praticité, la réactivité et la personnalisation,
-              pour des solutions qui s'adaptent réellement aux besoins des PME.
+              Votre réussite, notre obsession. Nous transformons votre vision métier en réalité opérationnelle 
+              avec des solutions technologiques sur mesure.
             </p>
           </div>
           
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-400">
-          <p className="font-light">&copy; {new Date().getFullYear()} AUREN - Consultant ERP. Tous droits réservés.</p>
+          <p className="font-light">&copy; {new Date().getFullYear()} AUREN - ESN Services Numériques. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
