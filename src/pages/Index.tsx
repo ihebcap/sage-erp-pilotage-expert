@@ -8,18 +8,11 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-brand-dark-blue text-white py-20">
+      <section className="bg-brand-black text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <div className="flex justify-center items-center mb-6">
-            <img 
-              src="/lovable-uploads/becf7b12-654d-4932-9767-654011ff4c0f.png" 
-              alt="AUREN" 
-              className="h-12 w-auto mr-4"
-            />
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light tracking-wide">
-              AUREN
-            </h1>
-          </div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-central font-light tracking-wide mb-6">
+            AUREN
+          </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
             Expert ERP Sage 100 pour votre entreprise
           </h2>
